@@ -1,0 +1,11 @@
+/*common.css*/
+
+body {
+    --primary-text-color: #35163c;
+    --primary-bg-color: #ffeded;
+}
+
+footer {
+    --footer-text-color: #fff;
+    --footer-bg-color: #000000;
+}
