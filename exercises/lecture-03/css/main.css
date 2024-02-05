@@ -4,7 +4,7 @@
     padding: 0;
    }
  /* more styles */
- @import url(/Exercises/lecture-03/css/common.css);
+ @import url("/Exercises/lecture-03/css/common.css");
 
  body {
     color: var(--primary-text-color);
