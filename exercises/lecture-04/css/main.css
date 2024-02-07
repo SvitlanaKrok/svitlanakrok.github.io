@@ -1,0 +1,80 @@
+@charset "UTF-8";
+
+/* * {
+  margin: 0;
+  padding: 0;
+  } */
+
+/* 2 */
+h1, h1, h3 {
+  color: grey;
+}
+
+main {
+  color: #e60202;
+}
+
+.h2 {
+  color: red;
+}
+
+.heading {
+  color:rgb(41, 180, 41);
+}
+
+/* 3 */
+ul > li {
+  font-weight: bold;
+  }
+
+section > p {
+  color: red;
+  }
+
+section p {
+  font-size: 50px;
+  }
+
+/* 4 */
+  h1:first-of-type + h2 {
+    color: indigo;
+    }
+
+p.first > a {
+  color: green;
+}
+
+p .first a {
+  color: green;
+}
+
+div ~ p {
+  color:salmon;
+}
+
+/* 5 */
+/*
+Шіснадцятковий код hex: #000000, #0000FF, #00FF00, #FF0000, #FFFFFF, #FFFF00
+
+Дясяткова використовуючи rgb: (0, 0, 0), (0, 0, 255), (0, 255, 0), (255, 0, 0), (255, 255, 255), (255, 255, 0)
+
+Відсотки hsl: (0, 0%, 0%), (240, 100%, 50%), (120, 100%, 25%), (0, 100%, 50%), (0, 0%, 100%), (60, 100%, 50%)
+
+Альфа-канал rgba: (000, 000, 000,1), (000, 000, 255,1), (000, 255, 000,1), (255, 000, 000,1), (255, 255, 255,1), (255, 255, 000,1)
+*/
+
+/* 6 */
+.translucent-box {
+  background: hsla(0 100% 50% / 0,5);
+  }
+
+/* 7 */
+html {
+  font-size: 100%;
+}
+body {
+  font-size: 140%;
+}
+h1 {
+  font-size: 240%;
+}

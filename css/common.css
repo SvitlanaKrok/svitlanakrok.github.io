@@ -1,11 +1,13 @@
 /*common.css*/
 
-body {
+html {
     --primary-text-color: #35163c;
     --primary-bg-color: #ffeded;
 }
-
+.shop {
+    --shop-text-color: rgb(176, 20, 85);
+}
 footer {
     --footer-text-color: #fff;
-    --footer-bg-color: #000000;
+    --footer-bg-color: #705ec9;
 }
