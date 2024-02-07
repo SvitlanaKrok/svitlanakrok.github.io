@@ -6,7 +6,7 @@
   } */
 
 /* 2 */
-h1, h1, h3 {
+h1, h2, h3 {
   color: grey;
 }
 
@@ -40,7 +40,7 @@ section p {
     color: indigo;
     }
 
-p.first > a {
+p.first a {
   color: green;
 }
 
