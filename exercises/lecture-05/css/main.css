@@ -1,0 +1,16 @@
+@charset "UTF-8";
+/* 4 */
+div{
+  font-size: 1.6em;
+}
+span {
+  font-size: 2.5em;
+}
+/* 5 */
+strong {
+  font-size: 1.6rem;
+}
+/* 6 */
+ul {
+  list-style: square;
+}

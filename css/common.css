@@ -1,13 +1,16 @@
 /*common.css*/
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css");
 
-html {
-    --primary-text-color: #35163c;
-    --primary-bg-color: #ffeded;
-}
-.shop {
-    --shop-text-color: rgb(176, 20, 85);
-}
-footer {
-    --footer-text-color: #fff;
-    --footer-bg-color: #705ec9;
-}
+	html {
+		--primary-text-color: #000;
+		--primary-bg-color: #fff;
+        --primary-font-family: 'Roboto', sans-serif;
+        --primary-font-size: 0.875rem;
+	}
+	footer {
+		--footer-text-color: #fff;
+		--fuuter-bg-color: #000;
+	}
+    a {
+        text-decoration: none;
+    }
