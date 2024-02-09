@@ -1,9 +1,15 @@
 @charset "UTF-8";
 /* 4 */
-div{
-  font-size: 1em;
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
 }
+
 div > span {
+  font-size: 1.6em;
+}
+div > span > span {
   font-size: 1.6em;
 }
 /* 5 */
