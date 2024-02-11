@@ -1,14 +1,16 @@
 /* main css */ 
 @charset "UTF-8";
 @import url("/css/common.css");
+@import url("/css/footer.css");
+
 
 body {
     color: var(--primary-text-color) ;
     background: var(--primary-bg-color);
     font-family: var(--primary-font-family);
     font-size: var(--primary-font-size);
-}
-h1, h2, h3 {
+} 
+ h1, h2, h3 {
     font-weight: 700;
 }
 h1 {
@@ -19,14 +21,35 @@ h2 {
 }
 .list-unstyled {
     list-style: none;
-}
-.footer-social {
-    
-}
+} 
+
 .shop {
     color: var(--shop-text-color)
 }
 
 footer{
     background: var(--footer-bg-color)
+}
+
+/* 12 */
+h2.text-uppercase {
+    text-transform: uppercase;
+}
+
+.bg-dark {
+    background-color: black;
+}
+
+.text-white {
+    color: white;
+}
+
+.list-unstyled.categories li a {
+    color: indigo;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.list-unstyled.categories li a:hover {
+    background-color: lightgray;
 }

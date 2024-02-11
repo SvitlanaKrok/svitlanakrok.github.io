@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+/* 12 */
+:root {
+    --primary-text-color: #000;
+    --primary-bg-color: #fff;
+    --primary-font-family: 'Roboto', sans-serif; 
+    --primary-font-size: 0.875rem;
+}
+
+/* 2 */
+a {
+    color: indigo;
+}
+a:visited {
+    color: gold;
+}
+a:hover {
+    color: salmon;
+}
+a:active {
+    color: red;
+
+}
+a:focus {
+    color: orange;
+
+}
+
+/* 3 */
+.qty input:in-range {
+    background-color: rgba(0, 255, 0, 0.25);
+    }
+    
+.qty input:out-of-range {
+    background-color: rgba(0, 255, 0, 0.25);
+    } 
+
+/* 4 */
+.first li:first-child {
+    color: orange;
+    }
+/* 5 */
+.second ul :first-of-type {
+    color: orange;
+    }
+    
+/* 6 */
+.third ul :last-of-type {
+    color: orange;
+    }
+
+/* 7 */
+.forth li:not(.first-item) { color: orange; }
+
+.forth ul li:not(.first-item):not(:last-of-type) {
+    background: yellow;
+    color: black;
+    }
+
+/* 8 */
+ol :nth-child(2) { 
+    color: orange; 
+    }
+ol :nth-child(2n) { 
+    color: orange; 
+    }
+ol :nth-child(2n+6) { 
+    color: orange; 
+    }
+    
+/* 9 */
+h1.ua::before {
+    content: "Слава ";
+    }
+
+/* 10 */
+h1.hero::after {
+    content: " Слава!";
+    }
+
+/* 11 */
+p.cont::before {
+    content: "\0A7";
+    }
+    
