@@ -1,12 +1,15 @@
 /* footer */
 
+/* * {
+    margin: 0;
+} */
 .page-footer {
 
-    --footer-background-color: #9f4d77;
-    --footer-social-background-color: #805d5d;
-    --footer-ligal-background-color: #583c3c;
+    --footer-background-color: #c095ac;
+    --footer-social-background-color: #468eeb;
+    --footer-ligal-background-color: #0a0f3d;
 
-    --footer-a-color: #eee;
+    --footer-a-color: #1d1919;
     --footer-light-color: #fff;
     --footer-a-font-size: 1rem;
 
@@ -21,15 +24,15 @@
                 color: var(--footer-light-color);
             }
             > ul > li > a:hover::before {
-                color: var(--footer-light-color);
+                color: var(--footer-black-color);
                 font-weight: 900;
-                content: "\f00c";
+                content: "\f06e";
                 font-family: 'Font Awesome 5 Free';
                 margin-right: 3px;
             }
             > .footer-title {
                 font-size: 1.3rem;
-                color: var(--footer-light-color);
+                color: var(--footer-black-color);
             }
         }
     }
@@ -50,14 +53,17 @@
         
         > ul.footer-ligal-list {
             > li {
-                white-space: nowrap;
+                white-space: nowrap; 
             }
             > li > a {
                 color: var(--footer-light-color);
             }
-            > li > a:hover {
+            /* > li > a:hover {
                 color: var(--footer-a-color);
-            }
+            } */
         }
+    }
+    * {
+        margin: 0;
     }
 }

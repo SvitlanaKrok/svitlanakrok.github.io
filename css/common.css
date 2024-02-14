@@ -3,14 +3,12 @@
 
 	:root {
 		--primary-text-color: #000;
-		--primary-bg-color: #efe1e1;
+		--primary-bg-color: #ffffff;
         --primary-font-family: 'Roboto', sans-serif;
         --primary-font-size: 0.875rem;
+        --currency-symbol: "\20B4";
 	}
-	footer {
-		--footer-text-color: #fff;
-		--fuuter-bg-color: #000;
-	}
+
     a {
         text-decoration: none;
     }
