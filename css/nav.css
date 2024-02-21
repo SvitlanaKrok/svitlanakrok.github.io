@@ -2,7 +2,15 @@
 
 .page-header {
     background-color: white;
-    
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 1.5rem 4%;
     /* brand */
     > .brand {
         color: var(--primary-text-color);
@@ -14,7 +22,7 @@
         > a {
             font-size: 1.1rem;
             color: var(--anchor-color);
-            margin: 20px;
+            margin: 30px;
         }
         > a:hover {
             color: var(--anchor-active-color);
@@ -31,7 +39,7 @@
             color: var(--anchor-active-color);
         }
         > a:active {
-            color: rgb(226, 43, 198);
+            color: rgb(129, 47, 117);
         }
     }
 }
