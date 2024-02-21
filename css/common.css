@@ -1,12 +1,17 @@
 /*common.css*/
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css");
 
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css");
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css");
+
+
 	:root {
 		--primary-text-color: #000;
 		--primary-bg-color: #ffffff;
         --primary-font-family: 'Roboto', sans-serif;
         --primary-font-size: 0.875rem;
-        --currency-symbol: "\20B4";
+
 	}
 
     a {
@@ -15,3 +20,40 @@
     ul {
         list-style: none;
     }
+    :root {
+        --main-color: rgb(130, 42, 92);
+        --anchor-color: #468eeb;
+        --anchor-active-color: red;
+        --currency-symbol: "\20B4";
+    }
+    body {
+        color: var(--primary-text-color) ;
+        background: var(--primary-bg-color);
+        font-family: var(--primary-font-family);
+        font-size: var(--primary-font-size);
+        font-family: 'Roboto', sans-serif;
+    }
+    
+    
+     h1, h2, h3 {
+        font-weight: 700;
+    }
+    h1 {
+        font-size: 1.45rem;
+    }
+    h2 {
+        font-size: 1.3rem;
+    }
+    .list-unstyled {
+        list-style: none;
+    } 
+    
+    .shop {
+        color: var(--shop-text-color)
+    }
+    
+    footer{
+        background: var(--footer-bg-color)
+    } 
+
+    

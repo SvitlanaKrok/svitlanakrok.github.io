@@ -3,45 +3,14 @@
 @import url("/css/common.css");
 @import url("/css/footer.css");
 @import url("/css/nav.css");
-
-:root {
-    --main-color: rgb(130, 42, 92);
-    --anchor-color: #468eeb;
-    --anchor-active-color: red;
-    --currency-symbol: "\20B4";
-}
-body {
-    color: var(--primary-text-color) ;
-    background: var(--primary-bg-color);
-    font-family: var(--primary-font-family);
-    font-size: var(--primary-font-size);
-    font-family: 'Roboto', sans-serif;
-}
+@import url("/css/hero.css");
+@import url("/css/app.css");
+@import url("/css/catalog.css");
 
 
- h1, h2, h3 {
-    font-weight: 700;
-}
-h1 {
-    font-size: 1.45rem;
-}
-h2 {
-    font-size: 1.3rem;
-}
-.list-unstyled {
-    list-style: none;
-} 
-
-.shop {
-    color: var(--shop-text-color)
-}
-
-footer{
-    background: var(--footer-bg-color)
-}
 
 /* 12 */
-h2.text-uppercase {
+/* h2.text-uppercase {
     text-transform: uppercase;
 }
 
@@ -61,4 +30,4 @@ h2.text-uppercase {
 
 .list-unstyled.categories li a:hover {
     background-color: lightgray;
-}
+} 

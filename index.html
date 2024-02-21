@@ -16,6 +16,28 @@
         <link rel="stylesheet" href="css/main.css">
 </head>
 
+<svg width="0" height="0" hidden>
+    <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="delivery-time" fill="none" stroke-miterlimit="10" stroke-linejoin="round" stroke-linecap="round">
+        <path d="M62 46v-5l-8-7h-8"/>
+        <circle cx="24" cy="54" r="4"/>
+        <circle cx="54" cy="54" r="4"/>
+        <path d="M50 54H28m-8 0h-4v-8h46v8h-4M24.5 24H46v22m-30 0V29.8M2 38h6m-2 8h2"/>
+        <circle cx="14" cy="18" r="12"/>
+        <path d="M14 12v8h6"/>
+</symbol>
+  
+<symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="helpline-24h" fill="none" stroke-miterlimit="10" stroke-linejoin="round" stroke-linecap="round">
+        <path d="M52.3 48.8c1.2.8 3 1.9 2.7 4.3S51 62 43 62s-17.7-6.3-26.2-14.8S2 28.9 2 21 9 9.3 10.9 9s3.6 1.5 4.3 2.7l6 9.2a4.3 4.3 0 0 1-1.1 5.8c-2.6 2.1-6.8 4.6 2.9 14.3s12.3 5.4 14.3 2.9a4.3 4.3 0 0 1 5.8-1.1z"/>
+        <path d="M54 2l-6 14h14m-4-6v12m-14 0H32l8.5-10v-.2A6 6 0 0 0 32 3.6"/>
+</symbol>
+<symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="label-tag" fill="none" stroke-miterlimit="10" stroke-linejoin="round" stroke-linecap="round">
+        <path d="M25.6 61L3 38.4 38.4 3l21.2 1.4L61 25.6 25.6 61z"/>
+        <circle cx="48" cy="15" r="4"/>
+        <path d="M31.3 21.4l11.3 11.3m-22.6 0l8.5 8.5M25.6 27l5.7 5.7"/>
+</symbol>
+
+</svg>
+
 <body>
     <!-- page header -->
 
@@ -37,82 +59,113 @@
             <a href="#" class="fas fa-user"></a>
         </nav>
     </header>
-    <!-- main content -->
-    <section id="hero" class="hero">
-        <div class="container">
-            <header>
-                <h2>Раді вітати в нашій онлайн кондитерській!</h2>
-                <p>У нас завжди смачно і естетично</p>
-            </header>
+    <!-- hero -->
+    <section id="hero" class="hero py-4 mb-1">
+        <div class="container text-left px-3">
+            <h1 href="#!" class="btn-red-gradient py-4 mb-5">Раді вітати в нашій онлайн кондитерській!</h1>
+                <h2 class="mb-3">У нас завжди смачно і естетично</h2>
         </div>
     </section>
 
     <!-- page main -->
-    <main>
+    <main class="mb-3z">
         <div class="container">
             <header>
-                <h2>Наші <span>вироби</span></h2>
+                <!-- <h2>Наші <span>вироби</span></h2> -->
+                <h2>Наші вироби</h2>
             </header>
-            <div class="product-container">
-                <article class="product">
+
+            <div class="product-container d-inline-block">
+                <article class="product mr-5">
                     <div class="icons">
                         <a href="" class="fas fa-shopping-cart"></a>
                         <a href="" class="fas fa-star"></a>
                         <a href="" class="far fa-eye"></a>
                     </div>
-                    <div class="image"></div>
+                    <div class="image">
+                        <div class="badge bg-sale">Sale</div>
+                        <img src="/images/Block 7-19.jpg" alt="Picture for product 6" height="200">
+                    </div>
                     <div class="content">
-                        <h3>Назва виробу</h3>
-                        <div class="price">100</div>
+                        <h3>Малинове тістечко</h3>
+                        <span class="price">50.00</span> <span class="price">30.99</span>
                     </div>
                 </article>
             </div>
+
+                <div class="product-container d-inline-block mr-5">
+                    <article class="product mr-5">
+                        <div class="icons">
+                            <a href="" class="fas fa-shopping-cart"></a>
+                            <a href="" class="fas fa-star"></a>
+                            <a href="" class="far fa-eye"></a>
+                        </div>
+                        <div class="image">
+            
+                            <img src="/images/modul1 (18 of 29).jpg" alt="Picture for product 6" height="200">
+                        </div>
+                        <div class="content">
+                            <h3>Пташине молоко</h3>
+                            <span class="price">88.99</span> <span class="price">59.99</span>
+                        </div>
+                    </article>
+
+                    <div class="product-container d-inline-block">
+                        <article class="product mr-5">
+                            <div class="icons">
+                                <a href="" class="fas fa-shopping-cart"></a>
+                                <a href="" class="fas fa-star"></a>
+                                <a href="" class="far fa-eye"></a>
+                            </div>
+                            <div class="image">
+                                <img src="/images/макарон-26.jpg" alt="Picture for product 6" height="200">
+                            </div>
+                            <div class="content">
+                                <h3>Макарон</h3>
+                                <span class="price">70</span> <span class="price">60.00</span>
+                            </div>
+                        </article>
+
         </div>
     </main>
 
-    <!-- footer -->
-    <!-- <footer class="page-footer">
-        <div class="footer-main">
-            <div>
-
+       <!-- services -->
+       <section id="services mb-3">
+        <div class="container py-5">
+            <div class="text-center">
+                <div class="svg-icon d-inline-block mr-5">
+                    <svg class="svg-icon-item">
+                        <use xlink:href="#delivery-time"></use>
+                    </svg>
+                    <div class="text-start">
+                        <h3>Free shipping</h3>
+                        <p>Free shipping worldwide.</p>
+                    </div>
+                </div>
+                <div class="svg-icon d-inline-block mr-5 ">
+                    <svg class="svg-icon-item">
+                        <use xlink:href="#helpline-24h"></use>
+                    </svg>
+                    <div class="text-start">
+                        <h3>Free shipping</h3>
+                        <p>Free shipping worldwide.</p>
+                    </div>
+                </div>
+                <div class="svg-icon d-inline-block">
+                    <svg class="svg-icon-item">
+                        <use xlink:href="#label-tag"></use>
+                    </svg>
+                    <div class="text-start">
+                        <h3>Free shipping</h3>
+                        <p>Free shipping worldwide.</p>
+                    </div>
+                </div>
             </div>
-            <h2 class="footer-title">Магазин</h2>
-            <ul>
-                <li><a href="">Набори</a></li>
-                <li><a href="">Торти</a></li>
-                <li><a href="">Десерти</a></li>
-            </ul>
         </div>
-        </section>
-        <section>
-            <div class="footer-shop">
-                <h2 class="footer-title">Інформація</h2>
-                <ul>
-                    <li><a href="">Оплата</a></li>
-                    <li><a href="">Гарантія якості</a></li>
-                    <li><a href="">Локація</a></li>
-                </ul>
-            </div>
-        </section>
-        <section class="footer-social">
-            <ul class="footer-social-list">
-                <li><a href="https://www.instagram.com/mont.noir.lviv/"><i class="fab fa-instagram"></i></a></li>
-                <li><a href="https://www.facebook.com/MontNoirLviv/"><i class="fab fa-facebook"></i></a></li>
-            </ul>
-        </section>
+    </section>
+    <hr>
 
-        <section class="footer-ligal">
-            <ul class="footer-ligal-list">
-                <li><a href="#">Terms &amp; Conditions</a></li>
-                <li><a href="#">Privacy Policy</a></li>
-                <li><a href="#">&copy; 2024 MontNoir</a></li>
-            </ul>
-
-        </section>
-    </footer>
-     -->
-
-    <footer class="">
+    <footer class="mb-3">
         <div class="container page-footer">
 
             <section class="footer-main">
@@ -132,7 +185,7 @@
                     </ul>
                 </div>
             </section>
-            <section class="footer-social">
+            <section class="footer-social py-3">
                 <ul class="footer-social-list">
                     <li><a href="https://www.instagram.com/mont.noir.lviv/"><i class="fab fa-instagram"></i></a></li>
                     <li><a href="https://www.facebook.com/MontNoirLviv/"><i class="fab fa-facebook"></i></a></li>
