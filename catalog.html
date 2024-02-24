@@ -11,12 +11,11 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,500;1,100;1,300;1,400;1,700;1,900&display=swap"
         rel="stylesheet">
-        <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
     <!-- page header -->
-  
     <header class="page-header mb-3">
         <!-- brand -->
         <a href="/index.html" class="brand">MontNoir</a>
@@ -36,40 +35,122 @@
         </nav>
     </header>
 
-    <section id="main">
-        <div class="container">
-            <header>
-                <h1>Продукція</h1>
-            </header>
-            <h3>Тут зберігатимуться всі вироби</h3>
-            <hr />
+    <section class="breadcrumb-bg-light mt-5">
+        <div class="container py-3 px-5">
+            <div class="breadcrumb-container">
+                <div class="breadcrumb-title">
+                    Продукція
+                </div>
+                <ul class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="/index.html">Головна</a></li>
+                    <li class="breadcrumb-item active">Продукція</li>
+                </ul>
+            </div>
         </div>
     </section>
-
     <!-- 12 -->
-    <aside>
-        <h2 class="text-uppercase">Categories</h2>
-                
-        <div class="bg-dark text-white">
-            <strong class="text-uppercase">Fashion &amp; Acc</strong>
+    <section class="" id="catalog">
+        <aside>
+            <div class="sidebar-wrapper">
+                <header>
+                    <h2 class="text-uppercase">Категорії</h2>
+                </header>
+                <ul class="categories">
+                    <li><a href="#!">Торти</a></li>
+                    <li><a href="#!">Цукерки</a></li>
+                    <li><a href="#!">Печиво</a></li>
+                    <li><a href="#!">Еклери</a></li>
+                    <li><a href="#!">Тістечка</a></li>
+  
+                </ul>
         </div>
-                
-        <ul class="list-unstyled categories">
-            <li><a href="#!">Women's T-Shirts</a></li>
-            <li><a href="#!">Men's T-Shirts</a></li>
-            <li><a href="#!">Dresses</a></li>
-            <li><a href="#!">Novelty socks</a></li>
-            <li><a href="#!">Women's sunglasses</a></li>
-            <li><a href="#!">Men's sunglasses</a></li>
-        </ul>
     </aside>
+    <main>
+        <div class="container py-3 px-4">
+            <div class="product-container">
+                <article class="product">
+                <div class="icons">
+                    <a href="" class="fas fa-shopping-cart"></a>
+                    <a href="" class="fas fa-star"></a>
+                    <a href="" class="far fa-eye"></a>
+                </div>
+                <div class="image">
+                    <div class="badge bg-sale">Sale</div>
+                    <img src="/images/Block 7-19.jpg" alt="Picture for product 6" height="200">
+                </div>
+                <div class="content">
+                    <h3>Малинове тістечко</h3>
+                    <span class="price">50.00</span> <span class="price">30.99</span>
+                </div>
+            </article>
+            <article class="product mr-5">
+                <div class="icons">
+                    <a href="" class="fas fa-shopping-cart"></a>
+                    <a href="" class="fas fa-star"></a>
+                    <a href="" class="far fa-eye"></a>
+                </div>
+                <div class="image">
 
+                    <img src="/images/modul1 (18 of 29).jpg" alt="Picture for product 6" height="200">
+                </div>
+                <div class="content">
+                    <h3>Пташине молоко</h3>
+                    <span class="price">88.99</span> <span class="price">59.99</span>
+                </div>
+            </article>
+            <article class="product mr-5">
+                <div class="icons">
+                    <a href="" class="fas fa-shopping-cart"></a>
+                    <a href="" class="fas fa-star"></a>
+                    <a href="" class="far fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="/images/макарон-26.jpg" alt="Picture for product 6" height="200">
+                </div>
+                <div class="content">
+                    <h3>Макарон</h3>
+                    <span class="price">70</span> <span class="price">60.00</span>
+                </div>
+            </article>
+            <article class="product mr-5">
+                <div class="icons">
+                    <a href="" class="fas fa-shopping-cart"></a>
+                    <a href="" class="fas fa-star"></a>
+                    <a href="" class="far fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="/images/макарон-26.jpg" alt="Picture for product 6" height="200">
+                </div>
+                <div class="content">
+                    <h3>Макарон</h3>
+                    <span class="price">70</span> <span class="price">60.00</span>
+                </div>
+            </article>
+            <article class="product mr-5">
+                <div class="icons">
+                    <a href="" class="fas fa-shopping-cart"></a>
+                    <a href="" class="fas fa-star"></a>
+                    <a href="" class="far fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="/images/макарон-26.jpg" alt="Picture for product 6" height="200">
+                </div>
+                <div class="content">
+                    <h3>Макарон</h3>
+                    <span class="price">70</span> <span class="price">60.00</span>
+                </div>
+            </article>
+        </div>
+    </main>
+</section>
+    <hr />
     <!--footer-->
     <footer class="mb-3">
         <div class="container page-footer">
             <section class="footer-main">
                 <div class="footer-main-item">
-                    <h3 class="footer-title">Магазин</h3><ul>
+                    <h3 class="footer-title">Магазин</h3>
+                    <ul>
                         <li><a href="">Набори</a></li>
                         <li><a href="">Торти</a></li>
                         <li><a href="">Десерти</a></li>
@@ -99,6 +180,7 @@
 
             </section>
         </div>
-        </footer>
+    </footer>
 </body>
+
 </html>
