@@ -2,13 +2,11 @@
   --min: 30ch;
 
   display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(var(--min), 1fr));
+  gap: 1rem;
 }
 
 body {
   --padding: 5vw;
   --max-width: 180ch;
-}
-.card{
-  min-width: var(--min);
-  grid-template-columns: repeat(auto-fit, minmax(var(--min)), 1fr);
 }

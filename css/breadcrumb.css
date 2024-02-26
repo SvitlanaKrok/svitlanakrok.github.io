@@ -12,6 +12,9 @@
 
     & .breadcrumb-title {
         font-size: 1.1rem;
+        position: relative;
+        top: 50%;
+        transform: translate(0, 25%);
     }
     & .breadcrumb {
         list-style: none;

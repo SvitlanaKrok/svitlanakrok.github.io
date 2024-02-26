@@ -31,13 +31,16 @@
 
 .text-left {
     text-align: left;
+    
 }
 
 .hero {
     h1 {
     font-size: 4vw;
     font-weight: 700;
-    
+    position: relative;
+    top: 50%;
+    transform: translate(0, -15%);
     
     background: -webkit-gradient( 
         linear, left top, right top, 
