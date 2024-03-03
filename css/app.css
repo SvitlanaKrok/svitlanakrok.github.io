@@ -9,6 +9,29 @@
         stroke-width: 4;
     }
 }
+/* flex layout */
+
+.flex-container {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.flex-container > * {
+    width: 100%;
+}
+
+@media (min-width: 35rem) {
+
+    .flex-container > * {
+        width: 100%;
+    }
+    .flex-container > * {
+        width: calc((100% - 2rem) / 3);
+    }
+}
 
 .bg-cover {
     background-size: cover;
@@ -44,11 +67,11 @@
     
     background: -webkit-gradient( 
         linear, left top, right top, 
-        from(rgb(25, 76, 192)), 
-        color-stop(20%, rgb(247, 31, 3)),  
-        color-stop(40%, rgb(151, 129, 39)),  
-        color-stop(60%, rgb(53, 91, 180)),  
-        color-stop(80%, rgb(57, 137, 61)),  
+        from(rgb(204, 13, 64)), 
+        color-stop(20%, rgb(244, 127, 180)),  
+        color-stop(40%, rgb(99, 39, 151)),  
+        color-stop(60%, rgb(159, 53, 180)),  
+        color-stop(80%, rgb(190, 135, 209)),  
         to(rgb(196, 26, 3))); 
         background-clip: text; 
         -webkit-background-clip: text;  -webkit-text-fill-color: transparent;

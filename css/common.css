@@ -56,4 +56,29 @@
         background: var(--footer-bg-color)
     } 
 
+    h1 {
+        /* font-size: calc(1.3rem + 1.1vw); */
+        font-size: clamp(1.5rem, 3vw, 2rem);
+    }
     
+    h2 {
+        /* font-size: calc(1.2rem + .8vw); */
+        font-size: clamp(1.3rem, 2vw, 1.5rem);
+    }
+    
+    h3 { 
+        font-size: clamp(1.2rem, 1.5vw, 1.3rem);
+    }
+    
+    p {
+        /* common property for p */
+    }
+    
+    a {
+        color: var(--anchor-color);
+        text-decoration: none;
+    }
+    
+    ul {
+        list-style: none;
+    }

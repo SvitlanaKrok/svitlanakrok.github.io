@@ -4,7 +4,7 @@
 
 .breadcrumb-container {
     --breadcrumb-active-color: rgb(0 0 0 / 0.5);
-    --breadcrumb-color: indigo;
+    --breadcrumb-color: rgb(125, 30, 116);
     --breadcrumb-divider: '/';
     display: flex;
     justify-content: space-between;

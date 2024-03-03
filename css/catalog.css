@@ -68,6 +68,7 @@ main .container h2 {
                 left: 0;
                 right: 0;
                 z-index: 10;
+                color: white;
             }
             > .price{
                 font-weight: 600;
@@ -93,11 +94,12 @@ main .container h2 {
         z-index: 10;
     }
 }
-#catalog{
-    display: grid;
-    gap: 1em;
-    grid-template-columns: 15rem auto;
-
+@media (min-width: 35rem) {
+    #catalog {
+        display: grid;
+        gap:1em;
+        grid-template-columns: 15rem auto;
+    }
 }
 
 ul.categories a:hover {
@@ -106,5 +108,5 @@ ul.categories a:hover {
 }
 
 ul.categories li:nth-child(even) {
-    background-color: lightgrey;
+    background-color: #efc6dc;
 }

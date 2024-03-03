@@ -1,0 +1,14 @@
+#delivery .container {
+    display: grid;
+    gap:1em;
+    grid-template-columns: auto 15rem;
+}
+
+.delivery-main {
+    height: 30ch;
+    border: 1.5px dashed rgb(69, 69, 176);
+}
+
+.delivery-sidebar {
+    border: 1.5px dashed rgb(15, 15, 109);
+}

@@ -13,7 +13,7 @@
     --footer-light-color: #fff;
     --footer-a-font-size: 1.1rem;
 
-    > .footer-main {
+    & .footer-main {
         background-color: var(--footer-background-color);
         display: flex;
         flex-wrap: wrap;
@@ -76,11 +76,16 @@
                 color: var(--footer-light-color);
             }
             > li > a:hover {
-                color: var(--footer-a-color);
+                color: var(--main-color);
             } 
             > li:nth-last-child(2) {
                 flex: 1;
-                margin-left: ;
+                margin-left: 1;
+                margin-right: 1;
+            }
+            > li:nth-last-child(3) {
+                flex: 1;
+                margin-left: 1;
             }
         }
     }

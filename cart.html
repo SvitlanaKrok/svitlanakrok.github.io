@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Продукція/Моя домашня сторінка</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,500;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <!-- page header -->
+    <header class="page-header mb-3">
+        <!-- brand -->
+        <a href="/index.html" class="brand">MontNoir</a>
+        <!--navigation-->
+        <nav class="navbar">
+            <a href="index.html">Головна</a>
+            <a href="catalog.html">Продукція</a>
+            <a href="delivery.html">Доставка</a>
+            <a href="about.html">Про нас</a>
+            <a href="contact.html">Контакти</a>
+            <a href="exercises/index.html">Exercises</a>
+        </nav>
+        <nav class="toolbar">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="cart.html" class="fas fa-shopping-bag"></a>
+            <a href="#" class="fas fa-user"></a>
+        </nav>
+    </header>
+
+    <section class="breadcrumb-bg-light mt-5">
+        <div class="container py-3 px-5">
+            <div class="breadcrumb-container">
+                <div class="breadcrumb-title">
+                    Корзина
+                </div>
+                <ul class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="/index.html">Головна</a></li>
+                    <li class="breadcrumb-item active">Ваша корзина</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section id="cart" class="mb-3">
+        <div class="cart-container py-3 px-4">
+            <div class="cart-main">
+                <div class="table">
+                    <div class="row header">
+                        <div class="cell">Продукція</div>
+                        <div class="cell">Ціна</div>
+                        <div class="cell">Кількість</div>
+                        <div class="cell">Сума</div>
+                        <div class="cell">Видалити</div>
+                    </div>
+                    <div class="row">
+                        <div class="cell">Макарон</div>
+                        <div class="cell">123</div>
+                        <div class="cell">10</div>
+                        <div class="cell">1234</div>
+                        <div class="cell"><a href="#!" class="fas fa-trash-alt"></a></div>
+                    </div>
+                    <div class="row">
+                        <div class="cell">Зефір</div>
+                        <div class="cell">123</div>
+                        <div class="cell">9</div>
+                        <div class="cell">1234</div>
+                        <div class="cell"><a href="#!" class="fas fa-trash-alt"></a></div>
+                    </div>                    
+                    <div class="row">
+                        <div class="cell">Пташка</div>
+                        <div class="cell">123</div>
+                        <div class="cell">15</div>
+                        <div class="cell">1234</div>
+                        <div class="cell"><a href="#!" class="fas fa-trash-alt"></a></div>
+                    </div>                    
+                    <div class="row">
+                        <div class="cell">Мармелад</div>
+                        <div class="cell">123</div>
+                        <div class="cell">4</div>
+                        <div class="cell">1234</div>
+                        <div class="cell"><a href="#!" class="fas fa-trash-alt"></a></div>
+                    </div>
+                    <div class="row">
+                        <div class="cell">Трайфл</div>
+                        <div class="cell">123</div>
+                        <div class="cell">1</div>
+                        <div class="cell">1234</div>
+                        <div class="cell"><a href="#!" class="fas fa-trash-alt"></a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="cart-sidebar">Sidebar</div>
+        </div>
+    </section>
+
+    <!--footer-->
+    <footer class="mb-3">
+        <div class="container page-footer">
+            <section class="footer-main">
+                <div class="footer-main-item">
+                    <h3 class="footer-title">Магазин</h3>
+                    <ul>
+                        <li><a href="">Набори</a></li>
+                        <li><a href="">Торти</a></li>
+                        <li><a href="">Десерти</a></li>
+                    </ul>
+                </div>
+                <div class="footer-main-item">
+                    <h3 class="footer-title">Інформація</h3>
+                    <ul>
+                        <li><a href="">Оплата</a></li>
+                        <li><a href="">Гарантія якості</a></li>
+                        <li><a href="">Локація</a></li>
+                    </ul>
+                </div>
+            </section>
+            <section class="footer-social py-3">
+                <ul class="footer-social-list">
+                    <li><a href="https://www.instagram.com/mont.noir.lviv/"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="https://www.facebook.com/MontNoirLviv/"><i class="fab fa-facebook"></i></a></li>
+                </ul>
+            </section>
+            <section class="footer-ligal py-1">
+                <ul class="footer-ligal-list">
+                    <li><a href="#">Terms &amp; Conditions</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">&copy; 2024 MontNoir</a></li>
+                </ul>
+
+            </section>
+        </div>
+    </footer>
+</body>
+
+</html>
