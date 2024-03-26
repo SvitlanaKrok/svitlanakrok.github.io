@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exersise 17</title>
+
+</head>
+
+<body>
+    <!-- 1 -->
+    <script>
+
+        let x = 3
+        let y = 4
+
+        x == 3 //true
+        x === "3" //false
+        x != 5 //true
+        x !== "5" //true
+        X !== 3 //false
+        y > 5 //false
+        y >= 3 //true
+        y < 5 //true
+        y <= 2 //false
+        1 == true //true
+        null == undefined //true
+        NaN == NaN //false
+
+    </script>
+
+    <!-- 2 -->
+    <script>
+        let x1 = 3;
+        let y1 = 4;
+        let z1 = 5;
+
+        x1 ||= y1; // x1 = 3
+        x1 || (y1 = z1); // x1 = 3
+        x1 &&= y1; // x1 = 4
+        x1 && (y1 = z); // x1 = 4, y1 = 5 
+        x1 ??= y1; // x1 = 4
+        x1 ?? (y1 = z1); // x1 = 4, y1 = 5
+    </script>
+
+    <!-- 3 -->
+    <script>
+
+        let num = prompt("Enter the number");
+
+        if (num == 3) {
+            alert("Congratulations, You did it!");
+
+        } else if (numb > 3) {
+            alert("The number is too long");
+
+        } else if (numb < 3) {
+            alert("The number is too short");
+
+        } else {
+            alert("Try again");
+
+        }
+    </script>
+
+    <!-- 4 -->
+
+    <!-- if (day === "понеділок" || day === "monday") {
+        alert("Start of the work week!");
+
+    } else if (day === "п'ятниця" || day === "friday") {
+        alert("End of the work week!");
+
+    } else {
+        alert("A regular day");
+    } -->
+
+    <script>
+        let day = prompt("Enter day of the week");
+
+        switch (day) {
+            case "Monday":
+            case "Понеділок":
+                alert("Start of the work week!");
+                break;
+            case "Friday":
+            case "П´ятниця":
+                alert("End of the work week!");
+                break;
+            default:
+                alert("A regular day");
+        }
+
+    </script>
+
+    <!-- 5 -->
+    <script>
+        let score = prompt("Enter your score");
+        let grade;
+
+        if (score < 50) {
+            grade = alert("Your grade F!");
+        } else if (score < 70) {
+            grade = alert("Your grade D!");
+        } else if (score < 80) {
+            grade = alert("Your grade C!");
+        } else if (score < 90) {
+            grade = alert("Your grade B!");
+        } else {
+            grade = alert("Your grade A!");
+        }
+    </script>
+
+    <!-- 
+        let score = 50;
+        let grade = score < 50 ? 'F' :
+                    score < 70 ? 'D' :
+                    score < 80 ? 'C' :
+                    score < 90 ? 'B' :
+                    'A';
+        console.log("Your grade: " + grade);
+     -->
+
+    <!-- 6 -->
+    <script>
+        let firstName = null;
+        let lastName = undefined;
+        let username = (firstName || lastName) ?? "Guest";
+
+        console.log(username); // "Guest" b
+    </script>
+
+</body>
+
+</html>
